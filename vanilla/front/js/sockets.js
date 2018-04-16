@@ -1,5 +1,5 @@
-(function (){
-    let socket = new WebSocket("wss://echo.websocket.org")
+//(function (){
+    let socket = new WebSocket("ws://127.0.0.1")
 
     socket.addEventListener("message", pushAndShowNotification)
 
@@ -25,9 +25,9 @@
     }
 
     setInterval(() => {
-        let data = JSON.stringify({msg: "teste", date: Math.random()*10})
-        socket.send(btoa(data))
+        let data = 'asdasd' //btoa(JSON.stringify({msg: "teste", date: Math.random()*10}))
+        socket.send(data)
     }, 1000)
-})()
+//})()
 
 

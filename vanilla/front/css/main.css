@@ -1,0 +1,17 @@
+#Notifications {
+    background: #94badb;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid #4e81a7;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.Notification {
+    margin: 4px 8px;
+    background: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
